@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/output.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex flex-col max-w-8xl mx-auto">
+        <nav class="flex justify-between items-center p-5 bg-gray-700 text-white px-32 ">
+            <div><h2 class="text-2xl font-bold font-sans">Online PortFolio</h2></div>
+            <div class="flex font-sans">
+                <ul class="flex gap-8 text-[12px] font-sans">
+                    <li><a href="#home" class="hover:text-blue-400">HOME</a></li>
+                    <li><a href="#about" class="hover:text-blue-400">ABOUT ME</a></li>
+                    <li><a href="#skills" class="hover:text-blue-400">SKILLS</a></li>
+                    <li><a href="#projects" class="hover:text-blue-400">PROJECTS</a></li>
+                    <li><a href="#resume" class="hover:text-blue-400">RESUME</a></li>
+                    <li><a href="#contact" class="hover:text-blue-400">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav> 
+        <header class="text-center py-10 font-serif"> 
+            <h1 class="text-3xl font-bold">Lakshya Agarwal</h1> 
+            <p class="mt-2 text-lg">Aspiring Software Engineer | Student</p> 
+        </header>
+        <div class="h-1 w-full bg-black my-8"></div>
+        <!-- section - about-->
+        <section class="flex items-center justify-center gap-14 px-16 max-w-8xl mx-auto" id="about">
+            <!-- img -->
+            <div class="mx-auto">
+                <img src="/images/bd69d431-bb08-4d36-b0cc-6cef051b4e34~1.jpg" alt="No Image Found" height="1200px" width="1200px" class="object-cover rounded-md">
+            </div>
+            <!-- text(name + lines) -->
+            <div class="gap-6 flex flex-col justify-center items-center">
+                <h1 class="text-3xl font-serif text-center font-bold">About Me</h1>
+                <p class="text-md font-serif font-medium text-gray-700">Third-year Computer Science (AI) student with strong programming skills in C++ and experience working with SQL 
+                    and MongoDB. Proficient in data structures and algorithmic problem-solving, having solved 300+ DSA problems on 
+                    LeetCode. Passionate about building scalable software systems and continuously improving problem-solving 
+                    abilities. Seeking opportunities to contribute to real-world development projects while expanding expertise in 
+                    software engineering and AI.
+                </p>
+            </div>
+        </section>
+        <!-- section - skills -->
+        <section class="px-6 py-12 max-w-6xl mx-auto" id="skills">
+            <!-- Heading -->
+            <div class="text-center mb-10">
+                <h1 class="text-4xl font-bold font-serif">Skills</h1>
+                <p class="text-gray-600 mt-3">
+                    My technical skills and areas of expertise
+                </p>
+            </div>
+
+            <!-- Skills Container -->
+            <div class="grid md:grid-cols-2 gap-8">
+
+                <!-- Programming Languages -->
+                <div class="bg-white rounded-2xl p-6 hover:scale-105 transition duration-300">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-600">
+                        Programming Languages
+                    </h2>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full">
+                            C++ (Primary)
+                        </span>
+
+                        <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full">
+                            JavaScript
+                        </span>
+                    </div>
+                </div>
+
+                <!-- DSA -->
+                <div class="bg-white rounded-2xl p-6 hover:scale-105 transition duration-300">
+                    <h2 class="text-2xl font-bold mb-4 text-green-600">
+                        Core Concepts
+                    </h2>
+
+                    <p class="text-gray-700 leading-7">
+                        Strong understanding of Data Structures & Algorithms with
+                        300+ problems solved on LeetCode.
+                    </p>
+                </div>
+
+                <!-- Web Development -->
+                <div class="bg-white rounded-2xl p-6 hover:scale-105 transition duration-300">
+                    <h2 class="text-2xl font-bold mb-4 text-purple-600">
+                        Web Development
+                    </h2>
+
+                    <div class="flex flex-wrap gap-3">
+                        <span class="bg-purple-100 text-purple-700 px-4 py-2 rounded-full">
+                            HTML
+                        </span>
+
+                        <span class="bg-purple-100 text-purple-700 px-4 py-2 rounded-full">
+                            CSS
+                        </span>
+
+                        <span class="bg-purple-100 text-purple-700 px-4 py-2 rounded-full">
+                            Tailwind CSS
+                        </span>
+
+                        <span class="bg-purple-100 text-purple-700 px-4 py-2 rounded-full">
+                            JavaScript
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Databases -->
+                <div class="bg-white rounded-2xl p-6 hover:scale-105 transition duration-300">
+                    <h2 class="text-2xl font-bold mb-4 text-orange-600">
+                        Databases
+                    </h2>
+
+                    <div class="flex flex-wrap gap-3">
+                        <span class="bg-orange-100 text-orange-700 px-4 py-2 rounded-full">
+                            MySQL
+                        </span>
+
+                        <span class="bg-orange-100 text-orange-700 px-4 py-2 rounded-full">
+                            MongoDB
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- projects -->
+        <section class="px-6 py-12 max-w-6xl mx-auto" id="projects">
+            <div class="text-center mb-10">
+                <h1 class="text-4xl font-bold font-serif">Projects</h1>
+                <p class="text-gray-600 mt-3">
+                    Some of the projects I have worked on, showcasing my skills and experience in software development.
+                </p>
+            </div>
+            <div class="flex flex-col gap-6">
+                <div class="gap-5 leading-5">
+                    <a href="https://github.com/lakshyaagra/LeetMetrics" class="text-xl font-serif text-center font-bold text-blue-900">Leetmetrics - LeetCode Performance Analytics Tool:- HTML, CSS & JavaScript</a>
+                    <p class="text-md font-serif font-medium text-gray-700">
+                        -Built a client-side web application to fetch and analyze LeetCode user statistics via GraphQL API integration.<br>-Utilized async/ await, Fetch API, and custom request headers to handle API communication.<br>-Designed interactive progress indicators using CSS custom properties for real-time visualization.
+                    </p>
+                </div>
+                <div class="gap-5 leading-5">
+                    <a href="https://github.com/lakshyaagra/LeetMetrics" class="text-xl font-serif text-center font-bold text-blue-900">Typing Speed Test:- HTML, Tailwind CSS & JavaScript</a>
+                    <br><a href="https://typing-speed-test-06b.vercel.app/"  class="text-lg font-serif text-blue-500 hover:underline">
+                        (Click for live link.)
+                    </a>
+                    <p class="text-md font-serif font-medium text-gray-700">
+                        -Developed a responsive typing test web application with real-time character validation, accuracy calculation, and
+                        WPM tracking using JavaScript.<br>-Implemented dynamic text rendering with per-character feedback and controlled timers for both timed and passage
+                        modes.<br>-Built an interactive UI with restart functionality, difficulty switching, and a results screen to display user performance.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- resume -->
+        <section class="px-6 py-12 max-w-6xl mx-auto text-center gap-6 flex justify-center items-center" id="resume">
+            <h2 class="text-2xl font-semibold">Click on the Download Button for Resume</h2>
+            <a href="/Lakshya_Agarwal_updated_Resume.pdf.pdf" download class="bg-blue-400 text-white px-10 py-4 rounded-full hover:bg-blue-500 transition duration-200">
+                Download Resume
+            </a>
+        </section>
+        <!-- contact section -->
+        <section class="px-6 max-w-6xl mx-auto text-center flex flex-col justify-center items-center" id="contact">
+            <h2 class="text-3xl font-bold font-serif">Contact</h2>
+            <p class="text-gray-700 text-lg font-serif text-left mt-8 ">
+                Feel free to reach out to me via Email,Phone or connect with me on LinkedIn.<br>
+                <span class="text-black text-lg font-semibold font-serif">Email: <a href="mailto:lakshyaagrawal72932@gmail.com" class="text-md text-blue-600 hover:underline">lakshyaagrawal72932@gmail.com</a></span>
+                <br>
+                <span class="text-black text-lg font-semibold font-serif">Phone: <a href="tel:+91-9412012700" class="text-md text-blue-600 hover:underline">+91-9412012700</a></span>
+                <br>
+                <span class="text-black text-lg font-semibold font-serif">LinkedIn: <a href="https://www.linkedin.com/in/lakshya-agarwal-76b1b0329/" class="text-md text-blue-600 hover:underline" target="_blank">Lakshya Agarwal</a></span><br>
+            </p>
+        </section>
+        <!-- copyright -->
+        <footer class="bg-gray-700 text-white text-center py-6 mt-10 font-serif">
+            <p>&copy; 2026 Lakshya Agarwal. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
